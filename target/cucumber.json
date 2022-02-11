@@ -1,0 +1,235 @@
+[
+  {
+    "line": 8,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-11T12:36:11.390Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "de.coop.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Create a new account and check alert message",
+        "description": "",
+        "id": "neu-anmelden;create-a-new-account-and-check-alert-message",
+        "after": [
+          {
+            "result": {
+              "duration": 770000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "de.coop.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4985000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on dashboard page",
+            "match": {
+              "location": "de.coop.step_definitions.LoginStepDefinitions.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks \"login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 12
+                }
+              ],
+              "location": "de.coop.step_definitions.LoginStepDefinitions.user_clicks(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1183000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks neu registrieren",
+            "match": {
+              "location": "de.coop.step_definitions.LoginStepDefinitions.user_clicks_neu_registrieren()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2506000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user picks \"Frau\" dann enters Vorname Nachname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Frau\"",
+                  "offset": 11
+                }
+              ],
+              "location": "de.coop.step_definitions.LoginStepDefinitions.userPicksDannEntersVornameNachname(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters Geburtsdatum",
+            "match": {
+              "location": "de.coop.step_definitions.LoginStepDefinitions.userEntersGeburtsdatum()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters Anmeldedaten \"varaven42@piftir.com\" und \"Password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"varaven42@piftir.com\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Password123\"",
+                  "offset": 52
+                }
+              ],
+              "location": "de.coop.step_definitions.LoginStepDefinitions.userEntersAnmeldedatenUnd(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 913000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters Kontaktdaten Land \"Deutschland\" Postleitzahl \"52349\" City \"Düren\" Strasse \"Malteserstr\" Hausnummer \"33\" Korrespondenzsprache \"Deutsch\" Mobil-Telefon \"49;DE\" \"17632657173\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Deutschland\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"52349\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"Düren\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"Malteserstr\"",
+                  "offset": 86
+                },
+                {
+                  "val": "\"33\"",
+                  "offset": 111
+                },
+                {
+                  "val": "\"Deutsch\"",
+                  "offset": 137
+                },
+                {
+                  "val": "\"49;DE\"",
+                  "offset": 161
+                },
+                {
+                  "val": "\"17632657173\"",
+                  "offset": 169
+                }
+              ],
+              "location": "de.coop.step_definitions.LoginStepDefinitions.userEntersKontaktdatenLandPostleitzahlCityStrasseHausnummerKorrespondenzspracheMobilTelefon(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user accepts Datenschutz",
+            "match": {
+              "location": "de.coop.step_definitions.LoginStepDefinitions.userAcceptsDatenschutz()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3098000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user clicks register;",
+            "match": {
+              "location": "de.coop.step_definitions.LoginStepDefinitions.userClicksRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should see the alert message",
+            "match": {
+              "location": "de.coop.step_definitions.LoginStepDefinitions.userShouldSeeTheAlertMessage()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Neu Anmelden",
+    "description": "",
+    "id": "neu-anmelden",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 7,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
